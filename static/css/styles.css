@@ -1,0 +1,138 @@
+/* Existing styles */
+body {
+    background-color: #e8f5e9; /* Light green background */
+    margin: 0;
+    padding: 0;
+    /* height: calc(80vh - 50px); */
+
+}
+header {
+    background-color: #90ee90; /* Change this to your preferred light color */
+    height: 70px;
+    color: #6cb67f;
+}
+
+
+#logo {
+    max-width: 90%;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-70%);
+    border-radius: 5px;
+    width: 130px
+}
+
+#message-input-container {
+    display: flex;
+    justify-content: center; /* Ensures horizontal centering */
+    align-items: center; /* Ensures vertical centering */
+    background-color: #6cb67f;
+    padding: 10px;
+    border-top: 3px solid #ffffff;
+    width: calc(80% - 30px);
+    bottom: 30px;
+    left: 120px;
+    right: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    border-radius: 15px;
+}
+
+#message-input {
+    flex-grow: 2;
+    border: none;
+    padding: 15px; /* Reduced padding */
+    margin-right: 20px;
+}
+
+#send-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    /* Adjusted border-right to border-left to correct the typo */
+    border-left: 40px;
+    border-right: 40px;
+    border-radius: 8px;
+}
+
+
+.message {
+    margin-bottom: 10px;
+    padding-left: 5px; /* Reduced padding on the left side */
+    padding-right: 5px; /* Reduced padding on the right side */
+    padding-top: 10px; /* Keep the top padding as is */
+    padding-bottom: 10px; /* Keep the bottom padding as is */
+    border-radius: 5px;
+    border-left: 20px;
+    font-weight: 475; /* Slightly bold text */
+    opacity: 0; /* Start with the message invisible */
+    transform: translateY(20px); /* Start slightly lower */
+    animation: fadeIn 0.5s ease forwards; /* Animation to fade in and move up */
+    
+}
+
+
+/* Animation for fading in and moving up */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* User's messages */
+.message.user {
+    background-color: #b7efc5; /* Light green background for user messages */
+    color: #000000; /* Black text for user messages */
+    align-self: flex-end; /* Align user messages to the right */
+    font-family: 'Segoe UI';
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+}
+
+/* Assistant's responses */
+.message.response {
+    background-color: #dcedc8; /* Slightly darker green background for responses */
+    color: #000000; /* Black text for responses */
+    align-self: flex-start; /* Align responses to the left */
+    font-family: 'Segoe UI';
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+}
+
+#logo-text {
+    text-align: left; /* This centers the text */
+    font-family: 'Segoe UI'; /* This changes the font type to Arial */
+}
+
+#new-chat-button {
+    background-color: #4f772d;
+    margin-left: 30px;
+    font-family: 'Segoe UI';
+}
+#chat-history {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light background for chat history */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: calc(90vh - 100px); /* Adjust based on your header height */
+}
+
+
+
+.d-flex .message.user, .d-flex .message.response {
+    font-family: 'Segoe UI', !important;
+}
+
+#chat-history .message.user, #chat-history .message.response {
+    font-family: 'Segoe UI', Arial, sans-serif !important;
+}
