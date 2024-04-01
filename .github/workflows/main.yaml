@@ -86,9 +86,9 @@ jobs:
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
          
-      - name: Stop and remove  container if running
-        run: |
-         docker ps -q --filter "name=sensecontainer" | grep -q . && docker stop sensecontainer && docker rm -fv sensecontainer
+      # - name: Stop and remove  container if running
+      #   run: |
+      #    docker ps -a --filter "name=sensecontainer" --format "{{.ID}}" | xargs -r docker rm
        
       - name: Run Docker Image to serve users
         run: |
