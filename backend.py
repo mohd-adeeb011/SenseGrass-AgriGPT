@@ -6,8 +6,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from flask_cors import CORS
 
-
-
 app = Flask(__name__,static_url_path='/static')
 CORS(app)
 load_dotenv()
