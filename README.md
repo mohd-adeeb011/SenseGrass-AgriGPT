@@ -1,5 +1,5 @@
 # SenseGrass - AgriGPT
-SenseGrass - AgriGPT is an agricultural chatbot powered by ChatGPT and integrated with external APIs for real-time weather and soil information. This chatbot aims to assist farmers and agriculture enthusiasts in making informed decisions about farming practices, crop management, and more.
+SenseGrass - AgriGPT is an agricultural chatbot using OpenAI API and integrated with external APIs for real-time weather and soil information. This chatbot aims to assist farmers and agriculture enthusiasts in making informed decisions about farming practices, crop management, and more.
 
 ## Features
 - Natural Language Interaction: Interact with the chatbot using natural language queries and receive informative responses.
