@@ -15,8 +15,15 @@ Once the chatbot is up and running, you can interact with it using natural langu
 - "What is the weather forecast for tomorrow?"
 - "How much rainfall is expected next week in my area?"
 - "What are the current soil conditions for growing tomatoes?"
+- Can you give me the soil information at 27.7172 latitude and 85.3240 longitude. Is the soild good for farming.
 - "Suggest some crop management practices for wheat cultivation."
 Feel free to experiment with different queries and explore the capabilities of the chatbot.
 
 ## Contributing
 Contributions to SenseGrass - AgriGPT are welcome! If you have any ideas for improvements, new features, or bug fixes, please feel free to open an issue or submit a pull request. Happy farming with SenseGrass - AgriGPT! 🌱🤖
+
+## Testimonials
+
+![Screenshot 2024-04-03 212727](https://github.com/mohd-adeeb011/SenseGrass-AgriGPT/assets/110835808/bb772fa5-c377-40f2-b133-1655a0c85148)
+
+![Screenshot 2024-04-03 212928](https://github.com/mohd-adeeb011/SenseGrass-AgriGPT/assets/110835808/67f39239-ca5c-4ee4-aafa-ff356d7eb69d)
