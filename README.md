@@ -24,6 +24,6 @@ Contributions to SenseGrass - AgriGPT are welcome! If you have any ideas for imp
 
 ## Testimonials
 
-![Screenshot 2024-04-03 212727](https://github.com/mohd-adeeb011/SenseGrass-AgriGPT/assets/110835808/bb772fa5-c377-40f2-b133-1655a0c85148)
+![Screenshot 2024-04-03 212727](https://github.com/mohd-adeeb011/SenseGrass-AgriGPT/assets/110835808/bd1258ee-1347-4ff9-a43f-cf8c457c0464)
 
-![Screenshot 2024-04-03 212928](https://github.com/mohd-adeeb011/SenseGrass-AgriGPT/assets/110835808/67f39239-ca5c-4ee4-aafa-ff356d7eb69d)
+![Screenshot 2024-04-03 212928](https://github.com/mohd-adeeb011/SenseGrass-AgriGPT/assets/110835808/44c675fa-cb40-4587-b70f-5d0ff7af2916)
